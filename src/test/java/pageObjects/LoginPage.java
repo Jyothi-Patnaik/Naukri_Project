@@ -16,7 +16,7 @@ public class LoginPage extends BasePage{
 WebElement emailId;
 @FindBy(xpath="//input[@placeholder='Enter your password']")
 WebElement password;
-@FindBy(xpath="//button[normalize-space()='Loginn']")
+@FindBy(xpath="//button[normalize-space()='Login']")
 WebElement loginClickBtn;
 
 @FindBy(xpath="//a[normalize-space()='View profile']")
